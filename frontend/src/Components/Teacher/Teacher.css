@@ -1,0 +1,79 @@
+.teachers-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .teachers-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #2d2f31;
+  }
+  
+  .teachers-subtitle {
+    font-size: 16px;
+    color: #6a6f73;
+    margin-bottom: 32px;
+  }
+  
+  .teachers-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+  
+  .teacher-card {
+    background: #fff;
+    border: 1px solid #dedede;
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 300px;
+    flex: 1 1 280px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .teacher-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .teacher-image {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .teacher-image img {
+    width: 48%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .teacher-content {
+    padding: 16px;
+    text-align: left;
+  }
+  
+  .teacher-content h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #2d2f31;
+  }
+  
+  .teacher-content .salary {
+    font-size: 14px;
+    color: #6a6f73;
+    margin: 8px 0;
+  }
+  
+  .teacher-footer {
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+    color: #4d4d4d;
+  }
+  

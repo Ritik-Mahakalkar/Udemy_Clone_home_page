@@ -1,0 +1,11 @@
+.card-img-top {
+    border-bottom: 1px solid #ddd;
+  }
+  .button-enroll{
+    color: white;
+    background:  #a435f0;
+  }
+  .button-enroll:hover{
+    border: 2px solid   #a435f0;
+  }
+  

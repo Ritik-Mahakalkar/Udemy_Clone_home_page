@@ -1,0 +1,114 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 12px 24px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #a435f0;
+    margin-right: 16px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .category-dropdown {
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .search-bar {
+    width: 340px;
+    padding: 8px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .navbar-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .login-btn,
+  .signup-btn {
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-btn {
+    background-color: transparent;
+    border: 1px solid #a435f0;
+    color: #a435f0;
+  }
+  
+  .signup-btn {
+    background-color: #a435f0;
+    color: white;
+  }
+  
+
+  .hamburger {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .search-bar {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .navbar-center {
+      order: 3;
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .hamburger {
+      display: block;
+      order: 2;
+      margin-left: auto;
+    }
+  
+    .navbar-right {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      display: none;
+      order: 4;
+      padding-top: 10px;
+      gap: 10px;
+    }
+  
+    .navbar-right.open {
+      display: flex;
+    }
+  }
+  
